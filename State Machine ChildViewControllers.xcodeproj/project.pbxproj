@@ -8,20 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		3D052F92232ADC1E004DCBED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D052F91232ADC1E004DCBED /* AppDelegate.swift */; };
-		3D052F94232ADC1E004DCBED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D052F93232ADC1E004DCBED /* ViewController.swift */; };
+		3D052F94232ADC1E004DCBED /* StateMachineVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D052F93232ADC1E004DCBED /* StateMachineVC.swift */; };
 		3D052F97232ADC1E004DCBED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D052F95232ADC1E004DCBED /* Main.storyboard */; };
 		3D052F99232ADC1F004DCBED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D052F98232ADC1F004DCBED /* Assets.xcassets */; };
 		3D052F9C232ADC1F004DCBED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D052F9A232ADC1F004DCBED /* LaunchScreen.storyboard */; };
+		3D052FA6232B00C0004DCBED /* YellowLightChildVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D052FA5232B00C0004DCBED /* YellowLightChildVC.swift */; };
+		3D052FA8232B00D2004DCBED /* RedLightChildVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D052FA7232B00D2004DCBED /* RedLightChildVC.swift */; };
+		3D052FAC232B699B004DCBED /* GreenLightChildVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D052FAB232B699A004DCBED /* GreenLightChildVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3D052F8E232ADC1E004DCBED /* State Machine ChildViewControllers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "State Machine ChildViewControllers.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D052F91232ADC1E004DCBED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3D052F93232ADC1E004DCBED /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3D052F93232ADC1E004DCBED /* StateMachineVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateMachineVC.swift; sourceTree = "<group>"; };
 		3D052F96232ADC1E004DCBED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3D052F98232ADC1F004DCBED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3D052F9B232ADC1F004DCBED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3D052F9D232ADC1F004DCBED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D052FA5232B00C0004DCBED /* YellowLightChildVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YellowLightChildVC.swift; sourceTree = "<group>"; };
+		3D052FA7232B00D2004DCBED /* RedLightChildVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedLightChildVC.swift; sourceTree = "<group>"; };
+		3D052FAB232B699A004DCBED /* GreenLightChildVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GreenLightChildVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +60,25 @@
 		3D052F90232ADC1E004DCBED /* State Machine ChildViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				3D052FAD232B7378004DCBED /* ChildViewControllers */,
 				3D052F91232ADC1E004DCBED /* AppDelegate.swift */,
-				3D052F93232ADC1E004DCBED /* ViewController.swift */,
+				3D052F93232ADC1E004DCBED /* StateMachineVC.swift */,
 				3D052F95232ADC1E004DCBED /* Main.storyboard */,
 				3D052F98232ADC1F004DCBED /* Assets.xcassets */,
 				3D052F9A232ADC1F004DCBED /* LaunchScreen.storyboard */,
 				3D052F9D232ADC1F004DCBED /* Info.plist */,
 			);
 			path = "State Machine ChildViewControllers";
+			sourceTree = "<group>";
+		};
+		3D052FAD232B7378004DCBED /* ChildViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				3D052FAB232B699A004DCBED /* GreenLightChildVC.swift */,
+				3D052FA5232B00C0004DCBED /* YellowLightChildVC.swift */,
+				3D052FA7232B00D2004DCBED /* RedLightChildVC.swift */,
+			);
+			path = ChildViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,7 +152,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D052F94232ADC1E004DCBED /* ViewController.swift in Sources */,
+				3D052FA8232B00D2004DCBED /* RedLightChildVC.swift in Sources */,
+				3D052FAC232B699B004DCBED /* GreenLightChildVC.swift in Sources */,
+				3D052FA6232B00C0004DCBED /* YellowLightChildVC.swift in Sources */,
+				3D052F94232ADC1E004DCBED /* StateMachineVC.swift in Sources */,
 				3D052F92232ADC1E004DCBED /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
