@@ -303,7 +303,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = TC9BB28N7B;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "State Machine ChildViewControllers/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -321,7 +321,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = TC9BB28N7B;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "State Machine ChildViewControllers/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
